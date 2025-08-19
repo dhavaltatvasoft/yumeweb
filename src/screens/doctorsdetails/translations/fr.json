@@ -1,0 +1,138 @@
+{
+  "doctorsDetailsSection": {
+    "search": "RECHERCHER",
+    "doctorDetails": "Dr Deniz Warren (MD) est une sage-femme certifiée sympathique et attentionnée, au service de la communauté de la ville de New York. Angela travaille avec des familles lors de l'accouchement depuis 2002, d'abord comme doula et éducatrice à l'accouchement, puis comme infirmière diplômée, et maintenant comme sage-femme. Elle a obtenu son diplôme d’associé en soins infirmiers au Long Island College Hospital School of Nursing, puis un baccalauréat en sciences infirmières à St. Francis College. Elle a ensuite fréquenté le Downstate Medical Center de la State University of New York, où elle a obtenu sa maîtrise en maïeutique.",
+    "reasonOptions": ["Fièvre", "Rhume", "Mal de tête", "Autre"],
+    "locationOptions": ["Ahmedabad", "Delhi", "Mumbai", "Chennai"],
+    "overviewDropdownOptions": [
+      "Meilleurs médecins de New York, 2021",
+      "Super médecins de New York, 2021",
+      "Super médecins de New York, 2020",
+      "Super médecins en chirurgie plastique, The New York Times, 2016-2017",
+      "Meilleurs médecins, The New York Times, 2016-2019",
+      "Femmes exceptionnelles en médecine, Castle Connolly Top Doctors, 2018",
+      "Meilleurs médecins, Castle Connolly, 2019"
+    ],
+    "overviewSections": [
+      {
+        "id": 1,
+        "name": "Médecin vérifié Yume",
+        "icon": "verifyDoc",
+        "isOpen": false
+      },
+      { "id": 2, "name": "Éducation", "icon": "education", "isOpen": false },
+      {
+        "id": 3,
+        "name": "Éducation postdoctorale",
+        "icon": "postEducation",
+        "isOpen": false
+      },
+      {
+        "id": 4,
+        "name": "Certifications du conseil",
+        "icon": "certifications",
+        "isOpen": false
+      },
+      {
+        "id": 5,
+        "name": "Adhésions",
+        "icon": "hospitalprivileges",
+        "isOpen": false
+      }
+    ],
+    "doctorReviews": [
+      {
+        "id": 1,
+        "name": "Bonnie R. Miller",
+        "date": "20 Mar 2020, 10:30 AM",
+        "text": "Tout le personnel était très amical et serviable. Le médecin a écouté toutes mes préoccupations et a partagé beaucoup de connaissances.",
+        "avatar": "user1",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "name": "Johnathan Parker",
+        "date": "20 Mar 2020, 10:30 AM",
+        "text": "Il est très compétent et serviable. Un ami m’a recommandé d’aller la voir et je suis très heureux de l’avoir fait. Je pense sincèrement qu’avec son désir d’aider, je découvrirai la source de tous les problèmes que je rencontre actuellement.",
+        "avatar": "user2",
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "name": "Amanda Lee",
+        "date": "21 Mar 2020, 11:15 AM",
+        "text": "Très professionnelle et attentionnée. Elle a tout expliqué clairement et m’a mis à l’aise tout au long de la consultation.",
+        "avatar": "user1",
+        "rating": 4
+      },
+      {
+        "id": 4,
+        "name": "Michael Jordan",
+        "date": "22 Mar 2020, 01:20 PM",
+        "text": "Environnement convivial et personnel très compétent. Je le recommande vivement à mes amis et à ma famille.",
+        "avatar": "user2",
+        "rating": 5
+      },
+      {
+        "id": 5,
+        "name": "Samantha Smith",
+        "date": "23 Mar 2020, 09:45 AM",
+        "text": "Très bonne expérience dans l’ensemble. La clinique était propre et le médecin a pris le temps d’expliquer en détail le plan de traitement.",
+        "avatar": "user1",
+        "rating": 4
+      },
+      {
+        "id": 6,
+        "name": "David Thompson",
+        "date": "24 Mar 2020, 03:10 PM",
+        "text": "J'ai apprécié la minutie de l'examen. Le médecin a répondu à toutes mes questions et a donné des conseils utiles.",
+        "avatar": "user2",
+        "rating": 5
+      }
+    ],
+    "reviewRatings": [
+      { "id": 1, "name": "Excellent", "rating": 70 },
+      { "id": 2, "name": "Très bon", "rating": 35 },
+      { "id": 3, "name": "Moyen", "rating": 20 },
+      { "id": 5, "name": "Faible", "rating": 10 },
+      { "id": 6, "name": "Terrible", "rating": 2 }
+    ],
+    "consultancyTypeTabs": ["Consultation vidéo", "En personne"],
+    "doctorLocations": [
+      {
+        "id": 1,
+        "name": "Ahmedabad Civil Hospital",
+        "address": "Asarwa, Ahmedabad, Gujarat, Inde",
+        "lat": 23.053967,
+        "long": 72.603844
+      },
+      {
+        "id": 2,
+        "name": "Zydus Hospitals",
+        "address": "Thaltej, Ahmedabad, Gujarat, Inde",
+        "lat": 23.0667,
+        "long": 72.5167
+      },
+      {
+        "id": 3,
+        "name": "KD Hospital",
+        "address": "Vaishnodevi Circle, SG Highway, Ahmedabad, Gujarat 382421",
+        "lat": 23.1035,
+        "long": 72.5714
+      }
+    ],
+    "doctorTab": ["Aperçu", "Emplacement", "Avis", "Photos"],
+    "doctorOb": {
+      "name": "Dr. Deniz Warren (MD)",
+      "specialty": "Cardiologue",
+      "address": "Heart Plus Hospital, 73-09 Myrtle Avenue, 1er étage, Glendale, NY 11385",
+      "reviewtext": "avis",
+      "rating": 4.6,
+      "reviewCount": 204,
+      "drimage": "https://randomuser.me/api/portraits/men/75.jpg",
+      "vConsultant": "Video Consultant",
+      "inPerson": "In-Person",
+      "time": "9:00 AM - 5:00 PM"
+    }
+  }
+}

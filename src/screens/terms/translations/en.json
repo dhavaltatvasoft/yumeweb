@@ -1,0 +1,86 @@
+{
+  "termsSection": {
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+
+    "dummyLorem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "termArr": [
+      {
+        "title": "1. What information do we collect?",
+        "bullets": [
+          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+          "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+          "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+          "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+          "The generated Lorem Ipsum is therefore always free from repetition, injected humour, characteristic words etc.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ]
+      },
+      {
+        "title": "2. How do we use your personal information and legal basis for processing",
+        "bullets": [
+          "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary below:",
+          "to facilitate a contract or steps prior to entering into the contract (Omni and Veri tools);",
+          "to enforce our Privacy Policy, KOL Privacy Notice, Cookie Policy and Terms of Service;",
+          "to send you periodic updates, marketing emails, administrative notices and invoices;",
+          "to defend our legal claims and to help others defend their legal claims (this includes exchanging information with other companies and organizations for fraud prevention and detection and credit risk reduction as well as for legal purposes by the Larvol in Court or in the stages leading to possible legal action arising from improper use of our Services );"
+        ]
+      },
+      {
+        "title": "3. How do we keep your information safe?",
+        "bullets": [
+          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+          "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+          "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+          "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+          "The generated Lorem Ipsum is therefore always free from repetition, injected humour, characteristic words etc.",
+          "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC.",
+          "This book is a treatise on the theory of ethics, very popular during the Renaissance.",
+          "The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32."
+        ]
+      }
+    ],
+    "privacyArr": [
+      {
+        "title": "1. What information do we collect?",
+        "bullets": [
+          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+          "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+          "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+          "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+          "The generated Lorem Ipsum is therefore always free from repetition, injected humour, characteristic words etc.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ]
+      },
+      {
+        "title": "2. How do we use your personal information and legal basis for processing",
+        "bullets": [
+          "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary below:",
+          "to facilitate a contract or steps prior to entering into the contract (Omni and Veri tools);",
+          "to enforce our Privacy Policy, KOL Privacy Notice, Cookie Policy and Terms of Service;",
+          "to send you periodic updates, marketing emails, administrative notices and invoices;",
+          "to defend our legal claims and to help others defend their legal claims (this includes exchanging information with other companies and organizations for fraud prevention and detection and credit risk reduction as well as for legal purposes by the Larvol in Court or in the stages leading to possible legal action arising from improper use of our Services );"
+        ]
+      },
+      {
+        "title": "3. How do we keep your information safe?",
+        "bullets": [
+          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+          "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+          "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+          "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+          "The generated Lorem Ipsum is therefore always free from repetition, injected humour, characteristic words etc.",
+          "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC.",
+          "This book is a treatise on the theory of ethics, very popular during the Renaissance.",
+          "The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32."
+        ]
+      }
+    ]
+  }
+}

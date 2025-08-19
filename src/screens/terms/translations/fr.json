@@ -1,0 +1,86 @@
+{
+  "termsSection": {
+    "privacyPolicy": "politique de confidentialité",
+    "terms": "Termes et conditions",
+
+    "dummyLorem": "Le Lorem Ipsum est simplement du faux texte utilisé dans la composition et la mise en page avant impression. Il est le faux texte standard de l'industrie depuis le XVIe siècle, lorsqu'un imprimeur anonyme assembla une liasse de caractères pour en faire un recueil de spécimens typographiques. Il a non seulement survécu à cinq siècles, mais aussi à l'avènement de la composition électronique, sans pour autant changer fondamentalement de forme. Il a été popularisé dans les années 1960 avec la sortie de feuilles Letraset contenant des passages du Lorem Ipsum, et plus récemment avec des logiciels de PAO comme Aldus PageMaker incluant des versions du Lorem Ipsum.",
+    "termArr": [
+      {
+        "title": "1. Quelles informations collectons-nous ?",
+        "bullets": [
+          "Il existe de nombreuses variantes de passages de Lorem Ipsum disponibles, mais la majorité ont été modifiées d’une manière ou d’une autre, par de l’humour injecté ou des mots aléatoires qui ne semblent même pas légèrement crédibles.",
+          "Si vous allez utiliser un passage de Lorem Ipsum, vous devez vous assurer qu’il n’y a rien d’embarrassant caché au milieu du texte.",
+          "Tous les générateurs de Lorem Ipsum sur Internet ont tendance à répéter des blocs prédéfinis au besoin, ce qui en fait le premier véritable générateur sur Internet.",
+          "Il utilise un dictionnaire de plus de 200 mots latins, combiné à une poignée de structures de phrases modèles, pour générer un Lorem Ipsum qui semble raisonnable.",
+          "Le Lorem Ipsum généré est donc toujours exempt de répétition, d’humour injecté, de mots caractéristiques, etc.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ]
+      },
+      {
+        "title": "2. Comment utilisons-nous vos informations personnelles et quelle est la base légale du traitement ?",
+        "bullets": [
+          "Tous les générateurs de Lorem Ipsum sur Internet ont tendance à répéter des blocs prédéfinis au besoin, comme indiqué ci-dessous :",
+          "pour faciliter un contrat ou les étapes préalables à la conclusion du contrat (outils Omni et Veri) ;",
+          "pour faire respecter notre politique de confidentialité, l’avis de confidentialité KOL, la politique en matière de cookies et les conditions d’utilisation ;",
+          "pour vous envoyer des mises à jour périodiques, des e-mails marketing, des avis administratifs et des factures ;",
+          "pour défendre nos revendications légales et aider d’autres personnes à défendre les leurs (ceci inclut l’échange d’informations avec d’autres entreprises et organisations pour la prévention de la fraude, la détection, la réduction des risques de crédit, ainsi que pour des raisons juridiques par Larvol devant le tribunal ou dans les étapes menant à une éventuelle action judiciaire résultant d’une mauvaise utilisation de nos services) ;"
+        ]
+      },
+      {
+        "title": "3. Comment protégeons-nous vos informations ?",
+        "bullets": [
+          "Il existe de nombreuses variantes de passages de Lorem Ipsum disponibles, mais la majorité ont été modifiées d’une manière ou d’une autre, par de l’humour injecté ou des mots aléatoires qui ne semblent même pas légèrement crédibles.",
+          "Si vous allez utiliser un passage de Lorem Ipsum, vous devez vous assurer qu’il n’y a rien d’embarrassant caché au milieu du texte.",
+          "Tous les générateurs de Lorem Ipsum sur Internet ont tendance à répéter des blocs prédéfinis au besoin, ce qui en fait le premier véritable générateur sur Internet.",
+          "Il utilise un dictionnaire de plus de 200 mots latins, combiné à une poignée de structures de phrases modèles, pour générer un Lorem Ipsum qui semble raisonnable.",
+          "Le Lorem Ipsum généré est donc toujours exempt de répétition, d’humour injecté, de mots caractéristiques, etc.",
+          "Le Lorem Ipsum provient des sections 1.10.32 et 1.10.33 de \"de Finibus Bonorum et Malorum\" (Les extrêmes du bien et du mal) de Cicéron, écrit en 45 avant J.-C.",
+          "Ce livre est un traité sur la théorie de l’éthique, très populaire à la Renaissance.",
+          "La première ligne du Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", provient d’une ligne de la section 1.10.32."
+        ]
+      }
+    ],
+    "privacyArr": [
+      {
+        "title": "1. Quelles informations collectons-nous ?",
+        "bullets": [
+          "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité ont été altérées sous une forme ou une autre, par de l'humour injecté ou des mots aléatoires qui ne semblent même pas légèrement crédibles.",
+          "Si vous utilisez un passage de Lorem Ipsum, assurez-vous qu'il n'y a rien d'embarrassant caché au milieu du texte.",
+          "Tous les générateurs de Lorem Ipsum sur Internet ont tendance à répéter des blocs prédéfinis au besoin, faisant de celui-ci le premier véritable générateur sur Internet.",
+          "Il utilise un dictionnaire de plus de 200 mots latins, combiné à quelques structures de phrases types, pour générer un Lorem Ipsum raisonnable.",
+          "Le Lorem Ipsum généré est donc toujours exempt de répétitions, d'humour injecté, de mots caractéristiques, etc.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ]
+      },
+      {
+        "title": "2. Comment utilisons-nous vos informations personnelles et quelle est la base légale du traitement",
+        "bullets": [
+          "Tous les générateurs de Lorem Ipsum sur Internet ont tendance à répéter des blocs prédéfinis comme indiqué ci-dessous :",
+          "pour faciliter un contrat ou les étapes préalables à la conclusion d'un contrat (outils Omni et Veri) ;",
+          "pour faire respecter notre politique de confidentialité, l'avis de confidentialité KOL, la politique de cookies et les conditions d'utilisation ;",
+          "pour vous envoyer des mises à jour périodiques, des e-mails marketing, des avis administratifs et des factures ;",
+          "pour défendre nos revendications légales et aider d'autres personnes à défendre leurs revendications légales (cela inclut l'échange d'informations avec d'autres entreprises et organisations pour la prévention de la fraude, la détection, la réduction des risques de crédit, ainsi que pour des raisons juridiques par Larvol au tribunal ou dans les étapes menant à une action en justice potentielle résultant d'une mauvaise utilisation de nos services) ;"
+        ]
+      },
+      {
+        "title": "3. Comment protégeons-nous vos informations ?",
+        "bullets": [
+          "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité ont été altérées sous une forme ou une autre, par de l'humour injecté ou des mots aléatoires qui ne semblent même pas légèrement crédibles.",
+          "Si vous utilisez un passage de Lorem Ipsum, assurez-vous qu'il n'y a rien d'embarrassant caché au milieu du texte.",
+          "Tous les générateurs de Lorem Ipsum sur Internet ont tendance à répéter des blocs prédéfinis au besoin, faisant de celui-ci le premier véritable générateur sur Internet.",
+          "Il utilise un dictionnaire de plus de 200 mots latins, combiné à quelques structures de phrases types, pour générer un Lorem Ipsum raisonnable.",
+          "Le Lorem Ipsum généré est donc toujours exempt de répétitions, d'humour injecté, de mots caractéristiques, etc.",
+          "Le Lorem Ipsum provient des sections 1.10.32 et 1.10.33 de « de Finibus Bonorum et Malorum » (Les extrêmes du bien et du mal) de Cicéron, écrit en 45 av. J.-C.",
+          "Ce livre est un traité sur la théorie de l’éthique, très populaire pendant la Renaissance.",
+          "La première ligne du Lorem Ipsum, « Lorem ipsum dolor sit amet.. », provient d’une ligne de la section 1.10.32."
+        ]
+      }
+    ]
+  }
+}

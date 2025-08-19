@@ -1,0 +1,13 @@
+{
+  "faqSection": {
+    "search": "SEARCH",
+    "askQuestion": "Ask a Question",
+    "freaskQuestion": "Frequently Asked Questions",
+
+    "aboutYume": "About Yume",
+    "dataPrivacy": "Data and Privacy",
+    "appointments": "Appointments",
+    "account": "Account",
+    "reviews": "Reviews"
+  }
+}

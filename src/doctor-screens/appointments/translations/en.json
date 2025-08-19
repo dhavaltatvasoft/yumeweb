@@ -1,0 +1,91 @@
+{
+  "dashboard": {
+    "stats": {
+      "waitList": "Wait List Requests",
+      "newAppointments": "New Appointments",
+      "totalAppointments": "Total Appointments"
+    },
+    "bookings": {
+      "title": "Today's Bookings",
+      "viewAll": "VIEW ALL",
+      "status": {
+        "ongoing": "On Going"
+      }
+    },
+    "reviews": {
+      "title": "Recent Reviews",
+      "viewAll": "VIEW ALL"
+    },
+    "appointments": {
+      "title": "New Appointments",
+       "ratingSummary" : "Rating Summary",
+      "headers": {
+        "name": "Name",
+        "date": "Date",
+        "type": "Consultancy Type",
+        "reason": "Reason",
+        "action": "Action",
+        "rating": "Rating"
+      }
+    }
+  },
+  "drawer": {
+    "items": {
+      "dashboard": "Dashboard",
+      "calendar": "Calendar",
+      "appointments": "Appointments",
+      "messages": "Messages"
+    },
+    "screens": {
+      "calendar": "Calendar",
+      "appointments": "Appointments",
+      "messages": "Messages"
+    },
+    "logout": "Logout"
+  },
+  "patientDetailsPane": {
+    "status": "Status",
+    "consultancyType": "Consultancy Type",
+    "slotTiming": "Slot Timing",
+    "bookedOn": "Booked on",
+    "reason": " Reason",
+    "patientDetails": "Patient Details",
+    "name": "Name",
+    "age": "Age",
+    "phone": "Phone Number",
+    "address": "Address",
+    "registrationForm": "Registration Form",
+    "accept": "ACCEPT",
+    "decline": "DECLINE",
+    "bookingId": "BOOKING ID",
+    "acceptRequest": "Accept Request",
+    "declineRequest": "Decline Request",
+    "bookingReqParaOne": "Are you sure you want to accept Booking Request?",
+    "bookingReqParaTwo": "As it is video consultancy booking you need to enter link where you can connect with the patient",
+    "bookingDeclinePara": "Are you sure you want to decline Booking Request?",
+    "meetingLink": "Enter Meeting Link",
+    "confirm": "CONFIRM",
+    "social": "Ex. Zoom, Google Meet",
+    "cancel": "CANCEL",
+    "location": "Location",
+    "chat": "CHAT",
+    "editBooking": "EDIT BOOKING",
+    "join": "JOIN",
+    "appointmentStart" : "Appointment will start in 4 minutes 21 seconds",
+    "appointmentUpcoming" : "Join option will be available before 5 minutes of confirmed slot",
+    "rescheduleBooking" : "Reschedule Booking",
+    "cancelBooking" : "Cancel Booking",
+    "cancelRequestDescription" : "Are you sure you want to cancel this booking request ?",
+    "cancelReason":"Reason for Cancellation"
+  },
+  "ratingCat": {
+    "bedside": "Bedside manner",
+    "answered":"Answered questions",
+    "afterCare":"After care",
+    "timeSpent":"Time spent",
+    "responsive":"Responsiveness",
+    "courtesy":"Courtesy",
+    "payProcess":"Payment process",
+    "waitTimes":"Wait times"
+  }
+}

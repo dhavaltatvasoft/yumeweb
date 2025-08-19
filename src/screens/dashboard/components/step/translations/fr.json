@@ -1,0 +1,23 @@
+{
+  "fourSteps": {
+    "heading": "4 Étapes Simples pour Obtenir Vos Solutions",
+    "steps": {
+      "step1": {
+        "title": "Vérifier le Profil du Médecin",
+        "description": "Participer à votre consultation virtuelle est simple avec les applications d'appel vidéo. Vous obtiendrez toujours des réponses personnalisées à vos questions les plus importantes."
+      },
+      "step2": {
+        "title": "Demander une Consultation",
+        "description": "Participer à votre consultation virtuelle est simple avec les applications d'appel vidéo. Vous obtiendrez toujours des réponses personnalisées à vos questions les plus importantes."
+      },
+      "step3": {
+        "title": "Recevoir la Consultation",
+        "description": "Participer à votre consultation virtuelle est simple avec les applications d'appel vidéo. Vous obtiendrez toujours des réponses personnalisées à vos questions les plus importantes."
+      },
+      "step4": {
+        "title": "Obtenir Votre Solution",
+        "description": "Participer à votre consultation virtuelle est simple avec les applications d'appel vidéo. Vous obtiendrez toujours des réponses personnalisées à vos questions les plus importantes."
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "profile": {
+    "title": "Profil",
+    "fullName": "Nom Complet",
+    "phoneNumber": "Numéro de Téléphone",
+    "email": "Email",
+    "country": "Pays",
+    "city": "Ville",
+    "zipCode": "Code Postal",
+    "address": "Adresse",
+    "changeProfile": "Changer la Photo de Profil",
+    "saveChanges": "Enregistrer les Modifications",
+    "cancel": "Annuler",
+    "success": "Profil mis à jour avec succès",
+    "validation": {
+      "profilePic": "La photo de profil est requise",
+      "fullName": "Le nom complet est requis",
+      "phoneNumber": "Le numéro de téléphone est requis",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Format d'email invalide",
+      "country": "Le pays est requis",
+      "city": "La ville est requise",
+      "zipCode": "Le code postal est requis",
+      "address": "L'adresse est requise"
+    },
+    "placeholders": {
+      "fullName": "Entrez le Nom Complet",
+      "phoneNumber": "Entrez le Numéro de Téléphone",
+      "email": "Entrez l'Email",
+      "country": "Entrez le Pays",
+      "city": "Entrez la Ville",
+      "zipCode": "Entrez le Code Postal",
+      "address": "Entrez l'Adresse"
+    }
+  },
+  "favorites": {
+    "groups": {
+      "group1": "Équipe de Cardiologie",
+      "group3": "Spécialistes en Orthopédie",
+      "group4": "Soins Dentaires"
+    },
+    "doctorCount": "{{count}} Médecins",
+    "dropdownOptions": {
+      "editGroup": "Modifier le Groupe",
+      "deleteGroup": "Supprimer le Groupe"
+    },
+    "doctorCard": {
+      "videoConsultant": "Consultant Vidéo",
+      "inPerson": "En Personne",
+      "reviews": "{{count}} avis",
+      "moveTo": "Déplacer Vers",
+      "remove": "Supprimer"
+    }
+  },
+  "moveOnModal": {
+    "title": "Déplacer vers",
+    "createNewGroup": "+ Créer un Nouveau Groupe",
+    "save": "Enregistrer"
+  },
+  "cancelAccount": {
+    "description": "Lorem Ipsum est simplement un texte fictif de l'industrie de l'imprimerie et de la composition. Lorem Ipsum est le texte fictif standard de l'industrie depuis les années 1500, lorsqu'un imprimeur inconnu a pris.",
+    "placeholder": "Raison",
+    "validation": {
+      "reasonRequired": "Raison Requise"
+    },
+    "success": "Succès",
+    "confirm": "Confirmer"
+  },
+  "deleteGroupModal": {
+    "title": "Supprimer le Groupe",
+    "message": "Êtes-vous sûr de vouloir supprimer le groupe ?",
+    "cancel": "Annuler",
+    "confirm": "Confirmer"
+  },
+  "setting": {
+    "description": "Changer le mot de passe",
+    "labels": {
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "confirmNewPassword": "Confirmer le nouveau mot de passe"
+    },
+    "placeholders": {
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "confirmNewPassword": "Confirmer le nouveau mot de passe"
+    },
+    "validation": {
+      "currentPasswordRequired": "Le mot de passe actuel est requis.",
+      "passwordRequired": "Le mot de passe est requis.",
+      "passwordMinLength": "Le mot de passe doit comporter au moins 6 caractères.",
+      "confirmPasswordRequired": "La confirmation du mot de passe est requise.",
+      "passwordsDoNotMatch": "Les mots de passe ne correspondent pas."
+    },
+    "successTitle": "Succès",
+    "success": "Mot de passe mis à jour avec succès.",
+    "update": "Mettre à jour"
+  },
+  "ProfileScreen": {
+    "sidebar": {
+      "myProfile": "Mon Profil",
+      "favorites": "Favoris",
+      "settings": "Paramètres",
+      "language":"Changer de langue",
+      "cancelAccount": "Annuler le Compte",
+      "logout": "Se Déconnecter"
+    },
+    "dropdown": {
+      "myProfile": "Mon Profil",
+      "settings": "Paramètres",
+      "logout": "Déconnexion"
+    },
+    "navigation": {
+      "aboutUs": "À Propos de Nous",
+      "contactUs": "Nous Contacter",
+      "myBookings": "Mes Réservations"
+    },
+    "pageTitles": {
+      "favorites": "Vos Favoris",
+      "settings": "Paramètres",
+      "language":"Changer de langue",
+      "cancelAccount": "Annuler le Compte",
+      "contactUs": "Nous Contacter"
+    },
+    "createNewGroup": "+ Créer un Nouveau Groupe",
+    "greeting": "Bonjour,"
+  },
+  "createNewGroup": {
+    "title": "Créer un Nouveau Groupe",
+    "label": "Nom du Groupe",
+    "placeholder": "Nom du Groupe",
+    "validation": {
+      "groupNameRequired": "Le nom du groupe est requis."
+    },
+    "submit": "Enregistrer"
+  }
+}

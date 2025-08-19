@@ -1,0 +1,242 @@
+{
+  "register": {
+    "steps": {
+      "confirm": "Confirm",
+      "verify": "Verify",
+      "complete": "Complete"
+    },
+    "step1": {
+      "title": "Create your yume profile",
+      "subtitle": "Please complete all applicable fields to continue",
+      "sectionTitle": "Office address & contact numbers",
+      "fields": {
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "First Name",
+          "errors": {
+            "required": "First name is required",
+            "lettersOnly": "First name must contain only letters"
+          }
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Last Name",
+          "errors": {
+            "required": "Last name is required",
+            "lettersOnly": "Last name must contain only letters"
+          }
+        },
+        "occupation": {
+          "label": "Occupation",
+          "placeholder": "Select appropriate Occupation",
+          "errors": {
+            "required": "Occupation is required"
+          }
+        },
+        "specialty": {
+          "label": "Specialty",
+          "placeholder": "Select appropriate Specialty",
+          "errors": {
+            "required": "Specialty is required"
+          }
+        },
+        "street": {
+          "label": "Street Address",
+          "placeholder": "Street Address",
+          "errors": {
+            "required": "Street address is required"
+          }
+        },
+        "suite": {
+          "label": "Suite",
+          "placeholder": "Suite",
+          "errors": {
+            "required": "Suite is required"
+          }
+        },
+        "zip": {
+          "label": "Zip Code",
+          "placeholder": "Enter zip code",
+          "errors": {
+            "required": "ZIP code is required",
+            "invalid": "ZIP code must be 6 digits"
+          }
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Select city",
+          "errors": {
+            "required": "City is required"
+          }
+        },
+        "phone": {
+          "label": "Office Phone",
+          "placeholder": "Office Phone",
+          "errors": {
+            "required": "Office phone is required",
+            "invalid": "Office phone must be 10 digits"
+          }
+        },
+        "ext": {
+          "label": "Ext",
+          "placeholder": "Ext",
+          "errors": {
+            "required": "Extension is required",
+            "digitsOnly": "Extension must contain only digits"
+          }
+        },
+        "fax": {
+          "label": "Office Fax",
+          "placeholder": "Office Fax",
+          "errors": {
+            "required": "Fax is required",
+            "invalid": "Fax must be 10 digits"
+          }
+        }
+      }
+    },
+    "step2": {
+      "title": "Verify you are a health professional",
+      "subtitle": "Enter the medical school, graduation year, date of birth and home ZIP to verify you are a healthcare professional",
+      "linkText": "Why do we ask for this information?",
+      "fields": {
+        "medicalSchool": {
+          "label": "Medical School",
+          "placeholder": "Medical School",
+          "errors": {
+            "required": "Medical school is required"
+          }
+        },
+        "gradYear": {
+          "label": "Grad Year",
+          "placeholder": "Grad Year",
+          "errors": {
+            "required": "Graduation year is required",
+            "invalid": "Graduation year must be between 1900 and {{currentYear}}"
+          }
+        },
+        "dob": {
+          "label": "Date of Birth",
+          "placeholder": "Date of birth (MM-DD-YYYY)",
+          "errors": {
+            "required": "Date of birth is required",
+            "format": "Date of birth must be in MM-DD-YYYY format",
+            "invalid": "Invalid date of birth",
+            "future": "Date of birth cannot be in the future"
+          }
+        },
+        "state": {
+          "label": "State",
+          "placeholder": "State",
+          "errors": {
+            "required": "State is required"
+          }
+        }
+      }
+    },
+    "step3": {
+      "title": "You're almost done!",
+      "subtitle": "Enter your email and create a password to access your yume Profile",
+      "terms": {
+        "text": "By signing up for yume, you agree to the <termsLink>Terms of Service</termsLink> and the <privacyLink>yume Privacy Policy</privacyLink>",
+        "termsLink": "Terms of Service",
+        "privacyLink": "yume Privacy Policy"
+      },
+      "fields": {
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Email Address",
+          "errors": {
+            "required": "Email is required",
+            "invalid": "Invalid email format"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Password",
+          "errors": {
+            "required": "Password is required",
+            "invalid": "Password must be at least 8 characters with at least 1 letter and 1 number"
+          }
+        },
+        "keepSignedIn": {
+          "label": "Keep me signed in on this device"
+        }
+      }
+    },
+    "buttons": {
+      "next": "Next",
+      "submit": "Submit",
+      "complete": "Complete Registration"
+    }
+  },
+  "findYourProfile": {
+    "initial": {
+      "title": "Join over one million healthcare professionals on yume",
+      "subtitle": "Enter your first and last name to claim your profile",
+      "fields": {
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "First Name"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Last Name"
+        }
+      },
+      "buttons": {
+        "find": "Find My Profile"
+      }
+    },
+    "search": {
+      "title": "Select Your Profile",
+      "fields": {
+        "npi": {
+          "placeholder": "Search by NPI"
+        }
+      },
+      "buttons": {
+        "viewMore": "View More"
+      }
+    },
+    "profiles": {
+      "invites": "{{count}} invites pending"
+    },
+    "secure": {
+      "text": "HIPAA Secure Communication Tools"
+    },
+    "states": {
+      "all": "All States",
+      "ohio": "Ohio",
+      "california": "California",
+      "texas": "Texas",
+      "newYork": "New York"
+    }
+  },
+  "profileSuccessModal": {
+    "title": "Profile Request Successful",
+    "message": "Congratulations! Your application has been submitted successfully. You will receive further instructions via email.",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "userProfileCard": {
+    "title": "Create your identity",
+    "subtitle": "Before you can view and edit your info, let's verify your identity.",
+    "note": "If some info is outdated, you can update it after verification.",
+    "link": "Wrong Photo?",
+    "buttons": {
+      "yes": "YES, THIS IS ME",
+      "no": "No, this isn’t me"
+    }
+  },
+  "authTypeError": "No account found for this email",
+  "loginHeader": {
+    "drawerTab": {
+      "dashboard": "Dashboard",
+      "calendar": "Calendar",
+      "appointment": "Appointments",
+      "message": "Message"
+    },
+    "greeting": "Hello,"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "es6"],
+  },
+  "include": [
+    "src/**/*",  // Assuming your app code is in the "src" folder
+    "node_modules/react-native-web/**/*",  // Include React Native Web typings
+    "node_modules/react-native/**/*"  // Include React Native typings
+  ]
+}

@@ -1,0 +1,20 @@
+export const assets = {
+  appLogo: require('./yume-logo.png'),
+  clock: require('./clock.png'),
+  trash: require('./trash_card.png'),
+  startCard: require('./star_card.png'),
+  menuIcon: require('./menu_icon.png'),
+  userPpl: require('./user_ppl.png'),
+  heartCard: require('./heart_card.png'),
+  videoCam: require('./cam.png'),
+  arrowUp: require('./arrow-up.png'),
+  arrowDownFill: require('./arrow-down_fill.png'),
+  checkMark: require('./check_mark.png'),
+  deleteGroup: require('./delete_group.png'),
+
+  logout: require('./logout.png'),
+  favorite: require('./Favorite.png'),
+  deleteUser: require('./delete_user.png'),
+  setting: require('./setting.png'),
+  userProfile: require('./user_profile.png'),
+};

@@ -1,0 +1,44 @@
+{
+  "dashboard": {
+    "stats": {
+      "waitList": "Demandes en liste d'attente",
+      "newAppointments": "Nouveaux rendez-vous",
+      "totalAppointments": "Total des rendez-vous"
+    },
+    "bookings": {
+      "title": "Réservations d'aujourd'hui",
+      "viewAll": "VOIR TOUT",
+      "status": {
+        "ongoing": "En cours"
+      }
+    },
+    "reviews": {
+      "title": "Avis récents",
+      "viewAll": "VOIR TOUT"
+    },
+    "appointments": {
+      "title": "Nouveaux rendez-vous",
+      "headers": {
+        "name": "Nom",
+        "date": "Date",
+        "type": "Type de consultation",
+        "reason": "Raison",
+        "action": "Action"
+      }
+    }
+  },
+  "drawer": {
+    "items": {
+      "dashboard": "Tableau de bord",
+      "calendar": "Calendrier",
+      "appointments": "Rendez-vous",
+      "messages": "Messages"
+    },
+    "screens": {
+      "calendar": "Calendrier",
+      "appointments": "Rendez-vous",
+      "messages": "Messages"
+    },
+    "logout": "Déconnexion"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "aboutSection": {
+    "aboutUs": "About Us",
+    "featureArr": [
+      "Online consultation with trusted doctors across 20+ specialities.",
+      "Comprehensive medical directory with detailed.",
+      "Data privacy and security is our top priority.",
+      "Quality healthcare made simple."
+    ],
+
+    "doctorsArr": [
+      {
+        "name": "Dr. Deniz Warren (MD)",
+        "specialty": "Cardiologist",
+        "distance": "0.2 Mi",
+        "hospital": "Heart Plus Hospital, 71-09 Myrtle Avenue, 1st Floor",
+        "image": "https://img.freepik.com/free-photo/smiling-doctor-with-strethoscope-isolated-grey_651396-974.jpg?t=st=1745819374~exp=1745822974~hmac=ed390cdfbda3059756cc3fb3ec796a82ef3d56be23f009dd78ee93ddc8c4f54d&w=900",
+        "videoConsult": true
+      },
+      {
+        "name": "Dr. Smeeth Chessy (MS)",
+        "specialty": "Cardiologist",
+        "distance": "0.2 Mi",
+        "hospital": "144 Delancey St, New York, NY 10002",
+        "image": "https://img.freepik.com/premium-photo/beautiful-young-asian-girl-doctor-with-notebook-records-isolated-blue-background-medical-student-general-practitioner-concept-medical-education-india_185696-394.jpg?w=996",
+        "videoConsult": true
+      }
+    ],
+    "dummyLorem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "getAccess": "Get access to wide variety",
+    "ofDocs": "of yume verified doctors profile",
+    "weProvide": "We Provide Many Features",
+    "canUse": "You Can Use",
+    "getConsultants": "Get Consultants",
+    "videoConsult": "Video Consult",
+    "weBelieve": "We believe in empowering our users with the most accurate, comprehensive, and curated information.",
+    "addTOCOMPARE": "ADD TO COMPARE",
+    "VerifiedDoc": "Yume Verified Doctor"
+  }
+}

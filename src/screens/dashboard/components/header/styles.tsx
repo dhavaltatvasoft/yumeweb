@@ -1,0 +1,258 @@
+import { StyleSheet } from "react-native";
+import { color, font, fontSize } from "../../../../theme/color";
+
+export const createStyles = (
+  isMobile: boolean,
+  isMobileOrTablet: boolean,
+  scale: (val: number) => number,
+  fontScales: (val: number) => number,
+  isMobileBrowser: boolean
+) =>
+  StyleSheet.create({
+    background: {
+      paddingVertical: fontScales(16),
+      paddingHorizontal: isMobile
+        ? isMobileBrowser
+          ? fontScales(35)
+          : fontScales(35)
+        : fontScales(80),
+     // width: "100%",
+    },
+    container: {
+      flexDirection: isMobileOrTablet ? "column" : "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+    },
+    logoContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+      marginBottom: fontScales(12),
+      justifyContent: isMobileOrTablet ? "space-between" : "flex-start",
+      width: isMobileOrTablet ? "100%" : "auto",
+    },
+    logo: {
+      width: fontScales(100),
+      height: fontScales(80),
+      marginRight: fontScales(10),
+      borderRadius: fontScales(25),
+    },
+    navLinks: {
+      flexDirection: "row",
+      justifyContent: "center",
+      alignItems: "center",
+      flexWrap: "wrap",
+    },
+    navLink: {
+      marginHorizontal: fontScales(12),
+      fontSize: fontScales(fontSize.fontSize16),
+      color: color.white,
+      textTransform: "uppercase",
+      fontFamily: font.Rubik_400r,
+      lineHeight: fontScales(20),
+    },
+    navLinkDrawer: {
+      marginHorizontal: fontScales(12),
+      fontSize: fontScales(fontSize.fontSize16),
+      color: color.lable1,
+      textTransform: "uppercase",
+      fontFamily: font.Rubik_400r,
+      lineHeight: fontScales(20),
+      paddingVertical: fontScales(10),
+    },
+    actionButtonOutlined: {
+      width: fontScales(260),
+      height: fontScales(45),
+      borderWidth: 1,
+      borderColor: color.white,
+      borderRadius: fontScales(6),
+      justifyContent: "center",
+      alignItems: "center",
+      marginHorizontal: fontScales(10),
+      marginVertical: fontScales(10),
+    },
+    actionButtonOutlinedText: {
+      color: color.white,
+      fontSize: fontScales(fontSize.fontSize16),
+      fontFamily: font.Rubik_500m,
+      lineHeight: fontScales(20),
+      textTransform: "uppercase",
+    },
+    actionButtonFilled: {
+      height: fontScales(45),
+      backgroundColor: color.secondary1,
+      borderRadius: fontScales(6),
+      justifyContent: "center",
+      alignItems: "center",
+      marginHorizontal: fontScales(12),
+      marginVertical: fontScales(10),
+      shadowColor: color.shadowColor,
+      shadowOffset: { width: 0, height: fontScales(3) },
+      shadowOpacity: 0.4,
+      shadowRadius: fontScales(2),
+      elevation: 5,
+      zIndex: 1,
+      paddingHorizontal: fontScales(16),
+    },
+    actionButtonFilledText: {
+      color: color.white,
+      fontSize: fontScales(fontSize.fontSize16),
+      fontFamily: font.Rubik_500m,
+      lineHeight: fontScales(20),
+    },
+    searchContainer: {
+      paddingVertical: fontScales(40),
+    },
+    findDoctorText: {
+      color: color.white,
+      fontSize: fontScales(
+        isMobile ? fontSize.fontSize32 : fontSize.fontSize60
+      ),
+      textTransform: "uppercase",
+      fontFamily: font.Rubik_700b,
+      lineHeight: fontScales(isMobile ? 42 : 70),
+    },
+    fieldContainer: {
+      paddingVertical: fontScales(40),
+    },
+    searchFieldsContainer: {
+      width: "100%",
+      alignSelf: "center",
+      maxWidth: fontScales(isMobileOrTablet ? 1000 : 1300),
+    },
+    inputGroupWrapper: {
+      maxWidth: isMobileOrTablet ? "100%" : fontScales(700),
+      alignSelf: "center",
+      alignItems: "flex-start",
+    },
+    inputGroup: {
+      flexDirection: isMobileOrTablet ? "column" : "row",
+      backgroundColor: color.white,
+      borderRadius: fontScales(8),
+      overflow: "hidden",
+      marginBottom: fontScales(12),
+      alignItems: "center",
+      maxWidth: isMobileOrTablet ? "100%" : fontScales(700),
+      zIndex: 0,
+      width: "100%", // Ensure inputGroup takes the full width of the wrapper
+    },
+    consultantButton: {
+      width: fontScales(225),
+      height: fontScales(56),
+      marginHorizontal: 0,
+      marginTop: isMobileOrTablet ? fontScales(10) : fontScales(10),
+    },
+    dropdownStyle: {
+      width: fontScales(126),
+      marginTop: fontScales(5),
+      borderRadius: fontScales(6),
+      overflow: "hidden",
+      borderWidth: 0,
+      height: fontScales(90),
+    },
+    dropdownTextStyle: {
+      fontSize: fontScales(fontSize.fontSize16),
+      paddingVertical: fontScales(12),
+      paddingHorizontal: fontScales(10),
+      color: color.loginDropDownText,
+      fontFamily: font.Rubik_500m,
+    },
+    dropdownTextHighlightStyle: {
+      color: color.shadowColor,
+    },
+    drawerOverlay: {
+      flex: 1,
+      flexDirection: "row",
+      backgroundColor: "rgba(0,0,0,0.4)",
+      justifyContent: "flex-end",
+    },
+    drawerContent: {
+      width: fontScales(300),
+      backgroundColor: color.white,
+      paddingHorizontal: fontScales(20),
+      height: "100%",
+    },
+    drawerHeader: {
+      fontSize: fontScales(fontSize.fontSize20),
+      fontFamily: font.Rubik_500m,
+      color: color.primary1,
+      marginBottom: fontScales(20),
+    },
+    sidebar: { width: "100%" },
+    sidebarItem: {
+      paddingVertical: fontScales(20),
+      marginBottom: fontScales(10),
+    },
+    sidebarText: {
+      fontSize: fontScales(fontSize.fontSize16),
+      fontFamily: font.Rubik_500m,
+      color: color.loginDropDownText,
+    },
+    ddStyle: {
+      width: isMobileOrTablet ? "90%" : undefined,
+      marginVertical: 5,
+      borderRadius: 6,
+      height: fontScales(100),
+    },
+    ddText: {
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize14),
+      paddingVertical: 20,
+    },
+    languageDropdownStyle: {
+      width: fontScales(50),
+      backgroundColor: color.secondary1,
+      height: fontScales(50),
+      justifyContent: "center",
+      alignItems: "center",
+      borderRadius: 8,
+    },
+    languageDropdownStyleMobile: {
+      width: fontScales(30),
+      backgroundColor: color.lightGrey,
+      height: fontScales(30),
+      justifyContent: "center",
+      alignItems: "center",
+      borderRadius: 8,
+      marginHorizontal: fontScales(10),
+    },
+    dropdownStyleMobile: {
+      width: fontScales(100),
+      marginTop: fontScales(5),
+      borderRadius: fontScales(6),
+      overflow: "hidden",
+      borderWidth: 0,
+      height: fontScales(90),
+    },
+    dropDownModalLang: {
+      position: "absolute",
+      backgroundColor: "white",
+      borderRadius: 8,
+      paddingVertical: 10,
+      width: fontScales(160),
+      shadowColor: "#000",
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.3,
+      shadowRadius: 4,
+      elevation: 5,
+    },
+    containerDropdown1: {
+      // marginRight: fontScales(5),
+      backgroundColor: color.white,
+      borderWidth: 0,
+      // width: fontScales(250),
+      paddingVertical: fontScales(15),
+      height: fontScales(35),
+    },
+    iconImage: {
+      width: fontScales(18),
+      height: fontScales(18),
+      marginRight: fontScales(6),
+    },
+    containerDropdown2: {
+      // marginRight: fontScales(5),
+      backgroundColor: color.white,
+      borderWidth: 0,
+      paddingVertical: fontScales(15),
+      height: fontScales(35),
+    },
+  });

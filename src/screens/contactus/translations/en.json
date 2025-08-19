@@ -1,0 +1,14 @@
+{
+  "contactUsSection": {
+    "contactUs": "Contact Us",
+    "gladtoHere": "We’ll be glad to hear from you. Send us your thoughts.",
+    "message": "Message",
+    "subject": "Subject",
+    "send": "SEND",
+    "messagePlaceholder": "Write your message here",
+    "customerSupport": "Customer Support",
+    "customerCare": "Customer Care",
+    "forQueries": "For Queries",
+    "emailSupport": "Email Support"
+  }
+}

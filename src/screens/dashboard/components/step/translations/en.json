@@ -1,0 +1,23 @@
+{
+  "fourSteps": {
+    "heading": "4 Easy Steps & Get Your Solutions",
+    "steps": {
+      "step1": {
+        "title": "Check Doctor Profile",
+        "description": "Attending your virtual consultation is simple with video calling apps. You'll still get personalized answers to your biggest questions."
+      },
+      "step2": {
+        "title": "Request Consultation",
+        "description": "Attending your virtual consultation is simple with video calling apps. You'll still get personalized answers to your biggest questions."
+      },
+      "step3": {
+        "title": "Receive Consultation",
+        "description": "Attending your virtual consultation is simple with video calling apps. You'll still get personalized answers to your biggest questions."
+      },
+      "step4": {
+        "title": "Get Your Solution",
+        "description": "Attending your virtual consultation is simple with video calling apps. You'll still get personalized answers to your biggest questions."
+      }
+    }
+  }
+}

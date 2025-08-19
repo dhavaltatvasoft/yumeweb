@@ -1,0 +1,38 @@
+{
+  "appName":"appName",
+  "header": {
+    "dropdown": {
+      "myProfile": "Mon Profil",
+      "settings": "Paramètres",
+      "logout": "Déconnexion"
+    },
+    "navigation": {
+      "aboutUs": "À Propos de Nous",
+      "contactUs": "Nous Contacter",
+      "myBookings": "Mes Réservations"
+    },
+    "greeting": "Bonjour,",
+     "login": "SE CONNECTER",
+    "register": "REGISTRE"
+  },
+   "logoutModal": {
+    "title": "Déconnexion",
+    "message": "Êtes-vous sûr de vouloir vous déconnecter maintenant ?",
+    "cancel": "Annuler",
+    "confirm": "Confirmer"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Accueil",
+      "aboutUs": "À Propos de Nous",
+      "findADoctor": "Trouver un Médecin",
+      "faq": "FAQ",
+      "contactUs": "Nous Contacter"
+    },
+    "copyright": "2025 YUME. Tous droits réservés.",
+    "legal": {
+      "termsOfService": "Conditions d'Utilisation",
+      "privacyPolicy": "Politique de Confidentialité"
+    }
+  }
+}

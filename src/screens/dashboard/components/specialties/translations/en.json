@@ -1,0 +1,15 @@
+{
+  "specialtiesSection": {
+    "title": "Top-Searched Specialties",
+    "specialties": {
+      "primaryCare": "Primary Care",
+      "dentist": "Dentist",
+      "obGyn": "OB-GYN",
+      "dermatologist": "Dermatologist",
+      "psychiatrist": "Psychiatrist",
+      "plasticSurgeon": "Plastic Surgeon"
+    },
+    "bannerTitle": "It's Time To Change Your Life Today",
+    "bannerButton": "Get Consultants"
+  }
+}

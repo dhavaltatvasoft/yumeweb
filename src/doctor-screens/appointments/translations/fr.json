@@ -1,0 +1,91 @@
+{
+  "dashboard": {
+    "stats": {
+      "waitList": "Demandes en liste d'attente",
+      "newAppointments": "Nouveaux rendez-vous",
+      "totalAppointments": "Total des rendez-vous"
+    },
+    "bookings": {
+      "title": "Réservations d'aujourd'hui",
+      "viewAll": "VOIR TOUT",
+      "status": {
+        "ongoing": "En cours"
+      }
+    },
+    "reviews": {
+      "title": "Avis récents",
+      "viewAll": "VOIR TOUT"
+    },
+    "appointments": {
+      "title": "Nouveaux rendez-vous",
+      "ratingSummary": "Résumé des évaluations",
+      "headers": {
+        "name": "Nom",
+        "date": "Date",
+        "type": "Type de consultation",
+        "reason": "Raison",
+        "action": "Action",
+        "rating": "Évaluation"
+      }
+    }
+  },
+  "drawer": {
+    "items": {
+      "dashboard": "Tableau de bord",
+      "calendar": "Calendrier",
+      "appointments": "Rendez-vous",
+      "messages": "Messages"
+    },
+    "screens": {
+      "calendar": "Calendrier",
+      "appointments": "Rendez-vous",
+      "messages": "Messages"
+    },
+    "logout": "Déconnexion"
+  },
+  "patientDetailsPane": {
+    "status": "Statut",
+    "consultancyType": "Type de consultation",
+    "slotTiming": "Heure du créneau",
+    "bookedOn": "Réservé le",
+    "reason": "Raison",
+    "patientDetails": "Détails du patient",
+    "name": "Nom",
+    "age": "Âge",
+    "phone": "Numéro de téléphone",
+    "address": "Adresse",
+    "registrationForm": "Formulaire d'inscription",
+    "accept": "ACCEPTER",
+    "decline": "REFUSER",
+    "bookingId": "ID DE RÉSERVATION",
+    "acceptRequest": "Accepter la demande",
+    "declineRequest": "Refuser la demande",
+    "bookingReqParaOne": "Êtes-vous sûr de vouloir accepter la demande de réservation ?",
+    "bookingReqParaTwo": "Comme il s'agit d'une consultation vidéo, vous devez entrer le lien où vous pourrez vous connecter avec le patient",
+    "bookingDeclinePara": "Êtes-vous sûr de vouloir refuser la demande de réservation ?",
+    "meetingLink": "Entrez le lien de la réunion",
+    "confirm": "CONFIRMER",
+    "social": "Ex. Zoom, Google Meet",
+    "cancel": "ANNULER",
+    "location": "Emplacement",
+    "chat": "DISCUSSION",
+    "editBooking": "MODIFIER LA RÉSERVATION",
+    "join": "REJOINDRE",
+    "appointmentStart": "Le rendez-vous commencera dans 4 minutes et 21 secondes",
+    "appointmentUpcoming": "L'option de rejoindre sera disponible 5 minutes avant le créneau confirmé",
+    "rescheduleBooking": "Replanifier la réservation",
+    "cancelBooking": "Annuler la réservation",
+    "cancelRequestDescription": "Êtes-vous sûr de vouloir annuler cette demande de réservation ?",
+    "cancelReason": "Raison de l'annulation"
+  },
+  "ratingCat": {
+    "bedside": "Manière d'être au chevet",
+    "answered": "Questions répondues",
+    "afterCare": "Soins postérieurs",
+    "timeSpent": "Temps passé",
+    "responsive": "Réactivité",
+    "courtesy": "Politesse",
+    "payProcess": "Processus de paiement",
+    "waitTimes": "Temps d'attente"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "contactUsSection": {
+    "contactUs": "Contactez-nous",
+    "gladtoHere": "Nous serons ravis de vous lire. N'hésitez pas à nous faire part de vos commentaires.",
+    "message": "Message",
+    "subject": "Sujette",
+    "send": "ENVOYER",
+    "messagePlaceholder": "Écrivez votre message ici",
+    "customerSupport": "Service client",
+    "customerCare": "Service client",
+    "forQueries": "Pour les requêtes",
+    "emailSupport": "Assistance par e-mail"
+  }
+}

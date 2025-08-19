@@ -1,0 +1,323 @@
+import {StyleSheet} from 'react-native';
+import {color, font, fontSize} from '../../theme/color';
+
+export const createStyles = (
+  scale: (val: number) => number,
+  isMobile: boolean,
+  screenWidth: number,
+  fontScales: (val: number) => number,
+) =>
+  StyleSheet.create({
+    container: {
+      paddingTop: fontScales(20),
+      paddingHorizontal: isMobile ? fontScales(15) : fontScales(100),
+      flexGrow: 1,
+      backgroundColor: color.colorF9F9F9,
+    },
+    stepperContainer: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingHorizontal: fontScales(200),
+      marginBottom: fontScales(30),
+      flexWrap: 'wrap',
+    },
+    mobileStepperContainer: {
+      paddingHorizontal: fontScales(10),
+      marginBottom: fontScales(20),
+    },
+    stepItem: {
+      alignItems: 'center',
+      width: 80,
+    },
+    mobileStepItem: {
+      width: Math.min(fontScales(60), (screenWidth - fontScales(20)) / 3),
+    },
+    circle: {
+      width: fontScales(48),
+      height: fontScales(48),
+      borderRadius: fontScales(24),
+      borderWidth: fontScales(2),
+      borderColor: color.colorBABABA,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    activeCircle: {
+      borderColor: color.secondary1,
+    },
+    completedCircle: {
+      borderColor: color.secondary1,
+      backgroundColor: color.secondary1,
+    },
+    circleText: {
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize20),
+      lineHeight: fontScales(24),
+      color: color.colorBABABA,
+    },
+    activeCircleText: {
+      color: color.secondary1,
+    },
+    stepLabel: {
+      marginTop: 5,
+      color: color.colorBABABA,
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize20),
+      lineHeight: fontScales(24),
+    },
+    mobileStepLabel: {
+      fontSize: fontScales(fontSize.fontSize12),
+      lineHeight: fontScales(16),
+    },
+    activeStepLabel: {
+      color: color.secondary1,
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize22),
+      lineHeight: fontScales(24),
+    },
+    completedStepLabel: {
+      color: color.secondary1,
+    },
+    stepLine: {
+      height: fontScales(2),
+      backgroundColor: color.colorBABABA,
+      flex: 1,
+      marginHorizontal: fontScales(4),
+      marginBottom: fontScales(25),
+      minWidth: fontScales(10),
+    },
+    completedStepLine: {
+      backgroundColor: color.secondary1,
+    },
+    title: {
+      fontSize: fontScales(fontSize.fontSize24),
+      fontFamily: font.Rubik_500m,
+      lineHeight: fontScales(36),
+      color: color.lable1,
+      marginBottom: fontScales(4),
+    },
+    subtitle: {
+      marginBottom: fontScales(20),
+      fontSize: fontScales(fontSize.fontSize14),
+      fontFamily: font.Rubik_400r,
+      lineHeight: fontScales(20),
+      color: color.lable1,
+    },
+    sectionTitle: {
+      marginTop: fontScales(20),
+      fontSize: fontScales(fontSize.fontSize18),
+      fontFamily: font.Rubik_500m,
+      lineHeight: fontScales(20),
+      color: color.lable1,
+      marginBottom: fontScales(10),
+    },
+    label: {
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize14),
+      color: color.lable1,
+      marginBottom: fontScales(6),
+      marginStart: fontScales(3),
+    },
+    linkText: {
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize14),
+      color: color.secondary1,
+      textDecorationLine: 'underline',
+    },
+    termsText: {
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize14),
+      color: color.lable1,
+      marginTop: fontScales(10),
+    },
+    row: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      gap: fontScales(50),
+      marginBottom: fontScales(30),
+    },
+    mobileRow: {
+      flexDirection: 'column',
+      gap: fontScales(20),
+    },
+    inputContainer: {
+      flex: 1,
+      marginBottom: isMobile ? fontScales(10) : 0,
+    },
+    checkboxRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginTop: fontScales(20),
+    },
+    checkboxContainer: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    checkbox: {
+      width: fontScales(20),
+      height: fontScales(20),
+      borderWidth: 1,
+      borderColor: color.border,
+      borderRadius: 4,
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginRight: fontScales(10),
+    },
+    checkboxChecked: {
+      backgroundColor: color.secondary1,
+      borderColor: color.secondary1,
+    },
+    checkboxLabel: {
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize14),
+      color: color.lable1,
+    },
+    buttonRow: {
+      flexDirection: 'row',
+      justifyContent: 'flex-start',
+      marginTop: fontScales(20),
+    },
+    mobileButtonRow: {
+      justifyContent: 'center',
+    },
+    input: {
+      flex: 1,
+      padding: fontScales(12),
+      backgroundColor: color.white,
+      paddingVertical: fontScales(15),
+      paddingHorizontal: fontScales(15),
+      borderRadius: 6,
+      borderWidth: 1,
+      fontSize: fontScales(fontSize.fontSize14),
+    },
+    passwordContainer: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      position: 'relative',
+    },
+    passwordInput: {
+      paddingRight: fontScales(40),
+    },
+    eyeIcon: {
+      position: 'absolute',
+      right: fontScales(10),
+      height: '100%',
+      justifyContent: 'center',
+    },
+    nextButton: {
+      backgroundColor: color.secondary1,
+      padding: fontScales(15),
+      paddingHorizontal: fontScales(40),
+      borderRadius: 6,
+      alignSelf: 'baseline',
+    },
+    mobileNextButton: {
+      paddingHorizontal: fontScales(20),
+      width: '100%',
+      alignItems: 'center',
+    },
+    nextText: {
+      fontSize: fontScales(fontSize.fontSize18),
+      fontFamily: font.Rubik_700b,
+      color: color.white,
+    },
+    mobileNextText: {
+      fontSize: fontScales(fontSize.fontSize16),
+    },
+    backButton: {
+      backgroundColor: color.white,
+      padding: fontScales(15),
+      paddingHorizontal: fontScales(40),
+      borderRadius: 6,
+      borderWidth: 1,
+      borderColor: color.border,
+      alignSelf: 'baseline',
+    },
+    backText: {
+      fontSize: fontScales(fontSize.fontSize18),
+      fontFamily: font.Rubik_700b,
+      color: color.lable1,
+    },
+    errorText: {
+      color: color.red,
+      fontSize: fontScales(fontSize.fontSize11),
+      fontFamily: font.Rubik_400r,
+      marginTop: fontScales(4),
+      marginLeft: fontScales(4),
+    },
+    profileCard: {
+      flexDirection: 'row',
+      padding: 12,
+      borderRadius: 8,
+      borderWidth: 1,
+      borderColor: color.grey,
+      marginBottom: fontScales(20),
+    },
+    avatar: {
+      width: fontScales(64),
+      height: fontScales(64),
+      borderRadius: fontScales(8),
+      marginRight: fontScales(12),
+    },
+    profileInfo: {
+      flex: 1,
+    },
+    name: {
+      fontFamily: font.Rubik_500m,
+      fontSize: fontScales(fontSize.fontSize20),
+      color: color.lable1,
+      lineHeight:fontScales(26),
+      marginBottom: 4,
+    },
+    specialty: {
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize14),
+      color: color.color7F18E5,
+      lineHeight:fontScales(20),
+      marginBottom: 2,
+    },
+    location: {
+      fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize14),
+      color: color.lable1,
+      lineHeight:fontScales(20),
+      marginBottom: 6,
+    },
+    note: {
+     fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize12),
+      color: color.colorA9A9A9,
+      lineHeight:fontScales(16),
+    },
+    link: {
+     fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize12),
+      color: color.colorA9A9A9,
+      lineHeight:fontScales(16),
+    },
+    primaryButton: {
+      backgroundColor: color.secondary1,
+      paddingVertical: fontScales(14),
+      paddingHorizontal: fontScales(20),
+      borderRadius: fontScales(8),
+    },
+    primaryButtonText: {
+       fontFamily: font.Rubik_500m,
+      fontSize: fontScales(fontSize.fontSize18),
+      color: color.white,
+      lineHeight:fontScales(16),
+    },
+    secondaryButtonText: {
+      marginLeft: 12,
+       fontFamily: font.Rubik_400r,
+      fontSize: fontScales(fontSize.fontSize16),
+      color: color.lable1,
+      lineHeight:fontScales(24),
+    },
+    buttonRowCard: {
+      flexDirection: 'row',
+      justifyContent: 'flex-start',
+      marginTop: fontScales(20),
+      alignItems:'center'
+    },
+  });

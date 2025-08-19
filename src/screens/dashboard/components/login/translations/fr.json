@@ -1,0 +1,102 @@
+{
+  "auth": {
+    "title": "Commençons",
+    "facebook": "CONTINUER AVEC FACEBOOK",
+    "twitter": "CONTINUER AVEC TWITTER",
+    "google": "CONTINUER AVEC GOOGLE",
+    "email": "CONTINUER AVEC L'E-MAIL",
+    "alreadyRegistered": "Déjà inscrit ?",
+    "login": "CONNEXION"
+  },
+  "forgotPassword": {
+    "title": "Mot de passe oublié",
+    "emailLabel": "Adresse e-mail/Numéro de téléphone",
+    "emailPlaceholder": "Entrez l'e-mail ou le téléphone",
+    "submitButton": "SOUMETTRE",
+    "error": {
+      "emailRequired": "L'e-mail est requis.",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide."
+    }
+  },
+  "loginModal": {
+    "title": "Connexion",
+    "emailLabel": "Adresse e-mail/Numéro de téléphone",
+    "emailPlaceholder": "Entrez l'e-mail ou le téléphone",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez le mot de passe",
+    "loginButton": "CONNEXION",
+    "forgotPassword": "Mot de passe oublié ?",
+    "registerText": "Vous n'avez pas de compte ? ",
+    "registerLink": "INSCRIVEZ-VOUS MAINTENANT",
+    "newTo":"N'est-ce pas mdr ? Un rêve ? ",
+    "findYourProfile":"Trouvez votre profil",
+    "error": {
+      "emailRequired": "Veuillez entrer votre adresse e-mail ou numéro de téléphone",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide",
+      "userNotFound": "Utilisateur non trouvé",
+      "passwordRequired": "Veuillez entrer votre mot de passe",
+      "incorrectPassword": "Mot de passe incorrect",
+      "authTypeError":"Aucun compte trouvé pour cet e-mail"
+    }
+  },
+  "otpVerification": {
+    "title": "Vérification OTP",
+    "subtitle": "Veuillez entrer l'OTP envoyé à {phoneNumber}",
+    "verifyButton": "VÉRIFIER",
+    "resendText": "Renvoyer l'OTP dans {countdown}s",
+    "resendNow": "Renvoyer maintenant"
+  },
+  "registerForm": {
+    "title": "Créer un compte",
+    "fullNameLabel": "Nom complet",
+    "fullNamePlaceholder": "Entrez le nom complet",
+    "phoneNumberLabel": "Numéro de téléphone",
+    "phoneNumberPlaceholder": "Entrez le numéro de téléphone",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Entrez l'adresse e-mail",
+    "countryLabel": "Pays",
+    "countryPlaceholder": "Sélectionnez le pays",
+    "cityLabel": "Ville",
+    "cityPlaceholder": "Sélectionnez la ville",
+    "zipCodeLabel": "Code postal",
+    "zipCodePlaceholder": "Entrez le code postal",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez le mot de passe",
+    "confirmPasswordLabel": "Confirmer le mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez le mot de passe",
+    "termsText": "J'ai lu les {termsLink} et la {privacyLink}",
+    "termsLink": "Conditions de service",
+    "privacyLink": "Politique de confidentialité",
+    "registerButton": "S'INSCRIRE",
+    "loginText": "Déjà inscrit ? ",
+    "loginLink": "CONNEXION",
+    "error": {
+      "fullNameRequired": "Le nom complet est requis",
+      "phoneNumberRequired": "Le numéro de téléphone est requis",
+      "emailRequired": "L'e-mail est requis",
+      "emailInvalid": "L'e-mail est invalide",
+      "countryRequired": "Le pays est requis",
+      "cityRequired": "La ville est requise",
+      "zipCodeRequired": "Le code postal est requis",
+      "passwordRequired": "Le mot de passe est requis",
+      "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+      "confirmPasswordMismatch": "Les mots de passe ne correspondent pas",
+      "termsRequired": "Vous devez accepter les conditions de service"
+    }
+  },
+  "setNewPassword": {
+    "title": "Définir un nouveau mot de passe",
+    "newPasswordLabel": "Entrer le nouveau mot de passe",
+    "newPasswordPlaceholder": "Entrez le mot de passe",
+    "confirmPasswordLabel": "Retaper le nouveau mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez le mot de passe",
+    "saveButton": "ENREGISTRER",
+    "loginLink": "CONNEXION",
+    "error": {
+      "passwordRequired": "Le mot de passe est requis",
+      "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+      "confirmPasswordRequired": "La confirmation du mot de passe est requise",
+      "confirmPasswordMismatch": "Les mots de passe ne correspondent pas"
+    }
+  }
+}

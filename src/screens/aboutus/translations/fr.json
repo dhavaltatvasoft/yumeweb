@@ -1,0 +1,39 @@
+{
+  "termsSection": {
+    "aboutUs": "À propos de nous",
+    "featureArr": [
+      "Consultation en ligne avec des médecins de confiance dans plus de 20 spécialités.",
+      "Annuaire médical complet avec des informations détaillées.",
+      "La confidentialité et la sécurité des données sont notre priorité absolue.",
+      "Des soins de santé de qualité rendus simples."
+    ],
+    "doctorsArr": [
+      {
+        "name": "Dr. Deniz Warren (MD)",
+        "specialty": "Cardiologue",
+        "distance": "0.2 Mi",
+        "hospital": "Heart Plus Hospital, 71-09 Myrtle Avenue, 1er étage",
+        "image": "https://img.freepik.com/free-photo/smiling-doctor-with-strethoscope-isolated-grey_651396-974.jpg?t=st=1745819374~exp=1745822974~hmac=ed390cdfbda3059756cc3fb3ec796a82ef3d56be23f009dd78ee93ddc8c4f54d&w=900",
+        "videoConsult": true
+      },
+      {
+        "name": "Dr. Smeeth Chessy (MS)",
+        "specialty": "Cardiologue",
+        "distance": "0.2 Mi",
+        "hospital": "144 Delancey St, New York, NY 10002",
+        "image": "https://img.freepik.com/premium-photo/beautiful-young-asian-girl-doctor-with-notebook-records-isolated-blue-background-medical-student-general-practitioner-concept-medical-education-india_185696-394.jpg?w=996",
+        "videoConsult": true
+      }
+    ],
+    "dummyLorem": "Le Lorem Ipsum est simplement du faux texte utilisé dans la composition et la mise en page avant impression. Il est le faux texte standard de l'industrie depuis le XVIe siècle, lorsqu'un imprimeur anonyme assembla une liasse de caractères pour en faire un recueil de spécimens typographiques. Il a non seulement survécu à cinq siècles, mais aussi à l'avènement de la composition électronique, sans pour autant changer fondamentalement de forme. Il a été popularisé dans les années 1960 avec la sortie de feuilles Letraset contenant des passages du Lorem Ipsum, et plus récemment avec des logiciels de PAO comme Aldus PageMaker incluant des versions du Lorem Ipsum.",
+    "getAccess": "Accédez à une grande variété",
+    "ofDocs": "du profil des médecins vérifiés de Yume",
+    "weProvide": "Nous fournissons de nombreuses fonctionnalités",
+    "canUse": "Vous pouvez utiliser",
+    "getConsultants": "Obtenez des consultants",
+    "videoConsult": "Consultation vidéo",
+    "weBelieve": "Nous pensons qu'il est important de fournir à nos utilisateurs les informations les plus précises, les plus complètes et les mieux organisées.",
+    "addTOCOMPARE": "AJOUTER POUR COMPARER",
+    "VerifiedDoc": "Médecin vérifié Yume"
+  }
+}

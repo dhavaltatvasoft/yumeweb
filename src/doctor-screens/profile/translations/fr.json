@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "tabs": {
+      "profileInfo": "Informations de profil",
+      "overview": "Aperçu",
+      "location": "Localisation",
+      "reviews": "Avis",
+      "photosVideos": "Photos et vidéos",
+      "settings": "Paramètres",
+      "uploadProof": "Télécharger les documents justificatifs",
+      "inviteDoctors": "Inviter des médecins"
+    }
+  }
+}

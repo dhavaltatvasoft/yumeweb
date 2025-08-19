@@ -1,0 +1,123 @@
+{
+  "doctorsSection": {
+    "search": "RECHERCHE",
+    "moreFilter": "Plus de filtre",
+    "clearALL": "TOUT EFFACER",
+    "distance": "Distance",
+    "language": "Langue",
+    "10Consultants": "10 Consultants",
+    "AllAppointments": "Tous les rendez-vous",
+    "inPerson": "En personne",
+    "videoConsultant": "Consultante vidéo",
+    "sortBy": "Trier par : note du plus élevé au plus bas",
+     "compareDoctors": "Comparez les médecins",
+      "Compare": "Comparer",
+     "selectMinimum3": "Select Minimum 3 doctors",
+     "symptoms":["Fièvre","Toux","Mal de tête"],
+      "specialty":["Cardiologie", "Dermatologie", "Pédiatrie"],
+     "gender":["Melle", "Femelle", "Autre"],
+     "searchCity":["New York", "Los Angeles", "Chicago"],
+     "availability":["Aujourd'hui", "Demain", "La semaine prochaine"],
+       "doctor":[
+       {
+            "id": 1,
+            "isSelected": false,
+            "name": "Dr. Deniz Warren (MD)",
+            "specialty": "Cardiologue",
+            "rating": "4.6",
+            "reviews": "201 avis",
+            "distance": "0,2 Mi",
+            "time": "09h00 - 17h00",
+            "hospital": "Heart Plus Hôpital, 71-09 Myrtle Avenue, 1er étage",
+            "image": "https://img.freepik.com/free-photo/smiling-doctor-with-strethoscope-isolated-grey_651396-974.jpg?t=st=1745819374~exp=1745822974~hmac=ed390cdfbda3059756cc3fb3ec796a82ef3d56be23f009dd78ee93ddc8c4f54d&w=900",
+            "videoConsult": true,
+            "inPerson": true,
+            "favorite": true,
+            "isAdded": true
+          },
+          {
+            "id": 2,
+            "isSelected": false,
+            "name": "Dr. Smeeth Chessy (MS)",
+            "specialty": "Cardiologue",
+            "rating": "4.6",
+            "reviews": "201 avis",
+            "distance": "0,2 Mi",
+            "time": "09h00 - 17h00",
+            "hospital": "144 Delancey St, New York, NY 10002",
+            "image": "https://img.freepik.com/premium-photo/beautiful-young-asian-girl-doctor-with-notebook-records-isolated-blue-background-medical-student-general-practitioner-concept-medical-education-india_185696-394.jpg?w=996",
+            "videoConsult": true,
+            "inPerson": true,
+            "favorite": false,
+            "isAdded": true
+          },
+          {
+            "id": 3,
+            "isSelected": false,
+            "name": "Dr. Marcus Holtz (DO)",
+            "specialty": "Chirurgien orthopédique",
+            "rating": "4.9",
+            "reviews": "312 avis",
+            "distance": "1,5 Mi",
+            "time": "10h00 - 16h00",
+            "hospital": "Brooklyn OrthoCare, 25th Avenue, Brooklyn",
+            "image": "https://img.freepik.com/free-photo/handsome-doctor-standing-hospital-corridor_107420-84872.jpg?t=st=1745819543~exp=1745823143~hmac=426878e6a61d5fca4fd8164c937e41b0d6b7f3e2414a01b5d09d23d5890ac61a&w=900",
+            "videoConsult": false,
+            "inPerson": true,
+            "favorite": true,
+            "isAdded": false
+          },
+          {
+            "id": 4,
+            "isSelected": false,
+            "name": "Dr. Livia Mensah (MBBS)",
+            "specialty": "Pédiatre",
+            "rating": "4.8",
+            "reviews": "146 avis",
+            "distance": "0,6 Mi",
+            "time": "08h30 - 14h00",
+            "hospital": "Hôpital des Enfants Sunrise, Queens Blvd",
+            "image": "https://img.freepik.com/premium-photo/portrait-confident-african-american-female-doctor-white-coat-standing-hospital-office-smiling-camera_274222-17045.jpg?w=900",
+            "videoConsult": true,
+            "inPerson": false,
+            "favorite": false,
+            "isAdded": false
+          },
+          {
+            "id": 5,
+            "isSelected": false,
+            "name": "Dr. Arjun Patel (MD)",
+            "specialty": "Dermatologue",
+            "rating": "4.5",
+            "reviews": "98 avis",
+            "distance": "2,1 Mi",
+            "time": "11h00 - 18h00",
+            "hospital": "Centre de Soins de la Peau & Laser, Manhattan",
+            "image": "https://img.freepik.com/free-photo/doctors-day-handsome-brunette-cute-guy-medical-gown-with-crossed-hands_140725-162942.jpg?t=st=1745919562~exp=1745923162~hmac=7f74a76183d4a2e5252468b7bd8cd07e4e5631416e581495432eb572e6e22564&w=996",
+            "videoConsult": true,
+            "inPerson": true,
+            "favorite": false,
+            "isAdded": false
+          }
+     ],
+       "languageArr":[
+        { "id": 1, "language": "Anglais", "count": 10, "checked": true },
+        { "id": 2, "language": "Hindi", "count": 5, "checked": false },
+        { "id": 3, "language": "Gujarati", "count": 0, "checked": false },
+        { "id": 4, "language": "Chinois", "count": 0, "checked": false }
+      ],
+        "Mile":"Mile",
+        "selectDoctor":"Sélectionnez un médecin",
+        "reviews":"avis",
+      "addTOCOMPARE":"AJOUTER POUR COMPARER",
+      "viewDETAILS":"VOIR LES DÉTAILS"
+
+
+
+
+
+
+
+
+  }
+}

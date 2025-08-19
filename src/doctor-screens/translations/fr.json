@@ -1,0 +1,242 @@
+{
+  "register": {
+    "steps": {
+      "confirm": "Confirmer",
+      "verify": "Vérifier",
+      "complete": "Compléter"
+    },
+    "step1": {
+      "title": "Créez votre profil yume",
+      "subtitle": "Veuillez remplir tous les champs applicables pour continuer",
+      "sectionTitle": "Adresse du bureau et numéros de contact",
+      "fields": {
+        "firstName": {
+          "label": "Prénom",
+          "placeholder": "Prénom",
+          "errors": {
+            "required": "Le prénom est requis",
+            "lettersOnly": "Le prénom ne doit contenir que des lettres"
+          }
+        },
+        "lastName": {
+          "label": "Nom de famille",
+          "placeholder": "Nom de famille",
+          "errors": {
+            "required": "Le nom de famille est requis",
+            "lettersOnly": "Le nom de famille ne doit contenir que des lettres"
+          }
+        },
+        "occupation": {
+          "label": "Profession",
+          "placeholder": "Sélectionnez la profession appropriée",
+          "errors": {
+            "required": "La profession est requise"
+          }
+        },
+        "specialty": {
+          "label": "Spécialité",
+          "placeholder": "Sélectionnez la spécialité appropriée",
+          "errors": {
+            "required": "La spécialité est requise"
+          }
+        },
+        "street": {
+          "label": "Adresse de la rue",
+          "placeholder": "Adresse de la rue",
+          "errors": {
+            "required": "L'adresse de la rue est requise"
+          }
+        },
+        "suite": {
+          "label": "Suite",
+          "placeholder": "Suite",
+          "errors": {
+            "required": "La suite est requise"
+          }
+        },
+        "zip": {
+          "label": "Code postal",
+          "placeholder": "Entrez le code postal",
+          "errors": {
+            "required": "Le code postal est requis",
+            "invalid": "Le code postal doit comporter 5 chiffres"
+          }
+        },
+        "city": {
+          "label": "Ville",
+          "placeholder": "Sélectionnez la ville",
+          "errors": {
+            "required": "La ville est requise"
+          }
+        },
+        "phone": {
+          "label": "Téléphone du bureau",
+          "placeholder": "Téléphone du bureau",
+          "errors": {
+            "required": "Le téléphone du bureau est requis",
+            "invalid": "Le téléphone du bureau doit comporter 10 chiffres"
+          }
+        },
+        "ext": {
+          "label": "Extension",
+          "placeholder": "Extension",
+          "errors": {
+            "required": "L'extension est requise",
+            "digitsOnly": "L'extension ne doit contenir que des chiffres"
+          }
+        },
+        "fax": {
+          "label": "Fax du bureau",
+          "placeholder": "Fax du bureau",
+          "errors": {
+            "required": "Le fax est requis",
+            "invalid": "Le fax doit comporter 10 chiffres"
+          }
+        }
+      }
+    },
+    "step2": {
+      "title": "Vérifiez que vous êtes un professionnel de santé",
+      "subtitle": "Entrez l'école de médecine, l'année de diplomation, la date de naissance et le code postal de domicile pour vérifier que vous êtes un professionnel de santé",
+      "linkText": "Pourquoi demandons-nous ces informations ?",
+      "fields": {
+        "medicalSchool": {
+          "label": "École de médecine",
+          "placeholder": "École de médecine",
+          "errors": {
+            "required": "L'école de médecine est requise"
+          }
+        },
+        "gradYear": {
+          "label": "Année de diplomation",
+          "placeholder": "Année de diplomation",
+          "errors": {
+            "required": "L'année de diplomation est requise",
+            "invalid": "L'année de diplomation doit être entre 1900 et {{currentYear}}"
+          }
+        },
+        "dob": {
+          "label": "Date de naissance",
+          "placeholder": "Date de naissance (MM-JJ-AAAA)",
+          "errors": {
+            "required": "La date de naissance est requise",
+            "format": "La date de naissance doit être au format MM-JJ-AAAA",
+            "invalid": "Date de naissance invalide",
+            "future": "La date de naissance ne peut pas être dans le futur"
+          }
+        },
+        "state": {
+          "label": "État",
+          "placeholder": "État",
+          "errors": {
+            "required": "L'état est requis"
+          }
+        }
+      }
+    },
+    "step3": {
+      "title": "Vous avez presque terminé !",
+      "subtitle": "Entrez votre email et créez un mot de passe pour accéder à votre profil yume",
+      "terms": {
+        "text": "En vous inscrivant à yume, vous acceptez les <termsLink>Conditions d'Utilisation</termsLink> et la <privacyLink>Politique de Confidentialité de yume</privacyLink>",
+        "termsLink": "Conditions d'Utilisation",
+        "privacyLink": "Politique de Confidentialité de yume"
+      },
+      "fields": {
+        "email": {
+          "label": "Adresse e-mail",
+          "placeholder": "Adresse e-mail",
+          "errors": {
+            "required": "L'e-mail est requis",
+            "invalid": "Format d'e-mail invalide"
+          }
+        },
+        "password": {
+          "label": "Mot de passe",
+          "placeholder": "Mot de passe",
+          "errors": {
+            "required": "Le mot de passe est requis",
+            "invalid": "Le mot de passe doit comporter au moins 8 caractères avec au moins 1 lettre et 1 chiffre"
+          }
+        },
+        "keepSignedIn": {
+          "label": "Rester connecté sur cet appareil"
+        }
+      }
+    },
+    "buttons": {
+      "next": "Suivant",
+      "submit": "Soumettre",
+      "complete": "Compléter l'inscription"
+    }
+  },
+  "findYourProfile": {
+    "initial": {
+      "title": "Rejoignez plus d'un million de professionnels de santé sur yume",
+      "subtitle": "Entrez votre prénom et nom pour réclamer votre profil",
+      "fields": {
+        "firstName": {
+          "label": "Prénom",
+          "placeholder": "Prénom"
+        },
+        "lastName": {
+          "label": "Nom de famille",
+          "placeholder": "Nom de famille"
+        }
+      },
+      "buttons": {
+        "find": "Trouvez Votre Profil"
+      }
+    },
+    "search": {
+      "title": "Sélectionnez votre profil",
+      "fields": {
+        "npi": {
+          "placeholder": "Rechercher par NPI"
+        }
+      },
+      "buttons": {
+        "viewMore": "Voir plus"
+      }
+    },
+    "profiles": {
+      "invites": "{{count}} invitations en attente"
+    },
+    "secure": {
+      "text": "Outils de communication sécurisés HIPAA"
+    },
+    "states": {
+      "all": "Tous les États",
+      "ohio": "Ohio",
+      "california": "Californie",
+      "texas": "Texas",
+      "newYork": "New York"
+    }
+  },
+  "profileSuccessModal": {
+    "title": "Demande de profil réussie",
+    "message": "Félicitations ! Votre candidature a bien été soumise. Vous recevrez des instructions par courriel.",
+    "cancel": "Annuler",
+    "confirm": "Confirmer"
+  },
+  "userProfileCard": {
+    "title": "Créez votre identité",
+    "subtitle": "Avant de pouvoir voir et modifier vos informations, vérifions votre identité.",
+    "note": "Si certaines informations sont obsolètes, vous pourrez les mettre à jour après la vérification.",
+    "link": "Mauvaise photo ?",
+    "buttons": {
+      "yes": "OUI, C'EST MOI",
+      "no": "Non, ce n’est pas moi"
+    }
+  },
+  "authTypeError":"No account found for this email",
+  "loginHeader": {
+    "drawerTab": {
+      "dashboard": "Tableau de bord",
+      "calender": "Calendrier",
+      "appointment": "Rendez-vous",
+      "message": "Message"
+    },
+    "greeting": "Bonjour,"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "appName":"appName",
+  "header": {
+    "dropdown": {
+      "myProfile": "My Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    "navigation": {
+      "aboutUs": "About Us",
+      "contactUs": "Contact Us",
+      "myBookings": "My Bookings"
+    },
+    "greeting": "Hello,",
+     "login": "LOGIN",
+    "register": "REGISTER"
+  },
+   "logoutModal": {
+    "title": "Logout",
+    "message": "Are you sure you want to logout now?",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "findADoctor": "Find a Doctor",
+      "faq": "FAQ",
+      "contactUs": "Contact Us"
+    },
+    "copyright": "2025 YUME. All rights reserved.",
+    "legal": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy"
+    }
+  }
+}

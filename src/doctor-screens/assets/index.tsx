@@ -1,0 +1,15 @@
+export const assets = {
+  lock: require("./lock.png"),
+  yes: require("./yes.png"),
+  no: require("./no.png"),
+  docFile: require("./docfile.png"),
+  appointment: require("./appointment.png"),
+  calendar: require("./calendar.png"),
+  dashboard: require("./dashboard.png"),
+  message: require("./message.png"),
+  deleteNotification: require("./delete_notification.png"),
+  confirmed: require("./confirmed.png"),
+  confirmationPending: require("./confirmation_pending.png"),
+  rescheduleRequested: require("./reschedule_requested.png"),
+  settings: require("./settings.png"),
+};

@@ -1,0 +1,15 @@
+{
+  "specialtiesSection": {
+    "title": "Spécialités les Plus Recherchées",
+    "specialties": {
+      "primaryCare": "Soins Primaires",
+      "dentist": "Dentiste",
+      "obGyn": "Gynécologue-Obstétricien",
+      "dermatologist": "Dermatologue",
+      "psychiatrist": "Psychiatre",
+      "plasticSurgeon": "Chirurgien Plastique"
+    },
+    "bannerTitle": "Il Est Temps de Changer Votre Vie Aujourd'hui",
+    "bannerButton": "Obtenir des Consultants"
+  }
+}

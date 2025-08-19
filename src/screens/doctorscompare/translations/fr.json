@@ -1,0 +1,90 @@
+{
+  "doctorsCompareSection": {
+    "doctorArr": [
+      {
+        "id": 1,
+        "name": "Dr. Deniz Warren",
+        "specialty": "Cardiologue",
+        "image": "https://img.freepik.com/free-photo/confident-mature-doctor_329181-9432.jpg",
+        "rating": "4.4",
+        "reviews": "204 avis",
+        "location": "NY 11385",
+        "verified": true,
+        "expertise": "Dentisterie esthétique",
+        "experience": "11",
+        "board": "Conseil américain de cardiologie",
+        "consultation": false,
+        "virtual": true,
+        "content": "Aucun contenu",
+        "privileges": true,
+        "consult": true,
+        "additionalRatings": {
+          "Bedside manner": 4,
+          "Answered questions": 5,
+          "After care": 4,
+          "Time spent": 3,
+          "Responsiveness": 4,
+          "Courtesy": 5,
+          "Payment process": 4,
+          "Wait times": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Dr. Smeeth Chessy",
+        "specialty": "Cardiologue",
+        "image": "https://img.freepik.com/free-photo/smiling-female-doctor-uniform-standing-hospital-corridor_651396-1646.jpg",
+        "rating": "4.9",
+        "reviews": "158 avis",
+        "location": "NY 10002",
+        "verified": false,
+        "expertise": "Aucun",
+        "experience": "16",
+        "board": "Aucun",
+        "consultation": false,
+        "virtual": false,
+        "content": "Aucun contenu",
+        "privileges": false,
+        "consult": false,
+        "additionalRatings": {
+          "Bedside manner": 5,
+          "Answered questions": 4,
+          "After care": 5,
+          "Time spent": 5,
+          "Responsiveness": 5,
+          "Courtesy": 4,
+          "Payment process": 5,
+          "Wait times": 4
+        }
+      },
+      {
+        "id": 3,
+        "name": "Dr. Wooyoung Choi",
+        "specialty": "Cardiologue",
+        "image": "https://img.freepik.com/free-photo/portrait-handsome-asian-doctor_23-2149213787.jpg",
+        "rating": "4.6",
+        "reviews": "79 avis",
+        "location": "NY 10036",
+        "verified": false,
+        "expertise": "Aucun",
+        "experience": "30",
+        "board": "Conseil britannique de cardiologie",
+        "consultation": false,
+        "virtual": true,
+        "content": "Aucun contenu",
+        "privileges": true,
+        "consult": true,
+        "additionalRatings": {
+          "Bedside manner": 3,
+          "Answered questions": 4,
+          "After care": 3,
+          "Time spent": 4,
+          "Responsiveness": 3,
+          "Courtesy": 4,
+          "Payment process": 3,
+          "Wait times": 2
+        }
+      }
+    ]
+  }
+}

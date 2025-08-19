@@ -1,0 +1,102 @@
+{
+  "auth": {
+    "title": "Let's Get Started",
+    "facebook": "CONTINUE WITH FACEBOOK",
+    "twitter": "CONTINUE WITH TWITTER",
+    "google": "CONTINUE WITH GOOGLE",
+    "email": "CONTINUE WITH EMAIL",
+    "alreadyRegistered": "Already Registered?",
+    "login": "LOGIN"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "emailLabel": "Email Address/Phone Number",
+    "emailPlaceholder": "Enter email or phone",
+    "submitButton": "SUBMIT",
+    "error": {
+      "emailRequired": "Email is required.",
+      "invalidEmail": "Please enter a valid email address."
+    }
+  },
+  "loginModal": {
+    "title": "Login",
+    "emailLabel": "Email Address/Phone Number",
+    "emailPlaceholder": "Enter email or phone",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter Password",
+    "loginButton": "LOGIN",
+    "forgotPassword": "Forgot Password?",
+    "registerText": "Don't have an account? ",
+    "registerLink": "REGISTER NOW",
+    "newTo":"New to yume? ",
+    "findYourProfile":"Find your profile",
+    "error": {
+      "emailRequired": "Please enter your Email Address or Phone Number",
+      "invalidEmail": "Please enter a valid Email Address",
+      "userNotFound": "User not found",
+      "passwordRequired": "Please enter your Password",
+      "incorrectPassword": "Incorrect password",
+      "authTypeError":"No account found for this email"
+    }
+  },
+  "otpVerification": {
+    "title": "OTP Verification",
+    "subtitle": "Please enter OTP sent to {phoneNumber}",
+    "verifyButton": "VERIFY",
+    "resendText": "Resend OTP in {countdown}s",
+    "resendNow": "Resend now"
+  },
+  "registerForm": {
+    "title": "Create an account",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Enter Full Name",
+    "phoneNumberLabel": "Phone Number",
+    "phoneNumberPlaceholder": "Enter Phone Number",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter Email Address",
+    "countryLabel": "Country",
+    "countryPlaceholder": "Select Country",
+    "cityLabel": "City",
+    "cityPlaceholder": "Select City",
+    "zipCodeLabel": "Zip Code",
+    "zipCodePlaceholder": "Enter Zip Code",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "termsText": "I have read the {termsLink} and {privacyLink}",
+    "termsLink": "Terms of service",
+    "privacyLink": "Privacy Policy",
+    "registerButton": "REGISTER",
+    "loginText": "Already Registered? ",
+    "loginLink": "LOGIN",
+    "error": {
+      "fullNameRequired": "Full name is required",
+      "phoneNumberRequired": "Phone number is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is invalid",
+      "countryRequired": "Country is required",
+      "cityRequired": "City is required",
+      "zipCodeRequired": "Zip code is required",
+      "passwordRequired": "Password is required",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "confirmPasswordMismatch": "Passwords do not match",
+      "termsRequired": "You must accept the terms of service"
+    }
+  },
+  "setNewPassword": {
+    "title": "Set New Password",
+    "newPasswordLabel": "Enter New Password",
+    "newPasswordPlaceholder": "Enter Password",
+    "confirmPasswordLabel": "Retype New Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "saveButton": "SAVE",
+    "loginLink": "LOGIN",
+    "error": {
+      "passwordRequired": "Password is required",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "confirmPasswordRequired": "Confirm password is required",
+      "confirmPasswordMismatch": "Passwords do not match"
+    }
+  }
+}

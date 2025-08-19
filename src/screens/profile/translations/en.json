@@ -1,0 +1,136 @@
+{
+  "profile": {
+    "title": "Profile",
+    "fullName": "Full Name",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "country": "Country",
+    "city": "City",
+    "zipCode": "Zip Code",
+    "address": "Address",
+    "changeProfile": "Change Profile Picture",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "success": "Profile updated successfully",
+    "validation": {
+      "profilePic": "Profile picture is required",
+      "fullName": "Full name is required",
+      "phoneNumber": "Phone number is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "country": "Country is required",
+      "city": "City is required",
+      "zipCode": "Zip code is required",
+      "address": "Address is required"
+    },
+    "placeholders": {
+      "fullName": "Enter Full Name",
+      "phoneNumber": "Enter Phone Number",
+      "email": "Enter Email",
+      "country": "Enter Country",
+      "city": "Enter City",
+      "zipCode": "Enter Zip Code",
+      "address": "Enter Address"
+    }
+  },
+  "favorites": {
+    "groups": {
+      "group1": "Cardiology Team",
+      "group3": "Orthopedic Specialists",
+      "group4": "Dental Care"
+    },
+    "doctorCount": "{{count}} Doctors",
+    "dropdownOptions": {
+      "editGroup": "Edit Group",
+      "deleteGroup": "Delete Group"
+    },
+    "doctorCard": {
+      "videoConsultant": "Video Consultant",
+      "inPerson": "In-Person",
+      "reviews": "{{count}} reviews",
+      "moveTo": "Move To",
+      "remove": "Remove"
+    }
+  },
+  "moveOnModal": {
+    "title": "Move to",
+    "createNewGroup": "+ Create New Group",
+    "save": "Save"
+  },
+  "cancelAccount": {
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
+    "placeholder": "Reason",
+    "validation": {
+      "reasonRequired": "Reason Required"
+    },
+    "success": "Success",
+    "confirm": "Confirm"
+  },
+  "deleteGroupModal": {
+    "title": "Delete Group",
+    "message": "Are you sure you want to delete the group?",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "setting": {
+    "description": "Change Password",
+    "labels": {
+      "currentPassword": "Current password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password"
+    },
+    "placeholders": {
+      "currentPassword": "Current Password",
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm New Password"
+    },
+    "validation": {
+      "currentPasswordRequired": "Current password is required.",
+      "passwordRequired": "Password is required.",
+      "passwordMinLength": "Password must be at least 6 characters.",
+      "confirmPasswordRequired": "Confirm password is required.",
+      "passwordsDoNotMatch": "Passwords do not match."
+    },
+    "successTitle": "Success",
+    "success": "Password updated successfully.",
+    "update": "Update"
+  },
+  "ProfileScreen": {
+    "sidebar": {
+      "myProfile": "My Profile",
+      "favorites": "Favorites",
+      "settings": "Settings",
+      "language":"Change language",
+      "cancelAccount": "Cancel Account",
+      "logout": "Log out"
+    },
+    "dropdown": {
+      "myProfile": "My Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    "navigation": {
+      "aboutUs": "About Us",
+      "contactUs": "Contact Us",
+      "myBookings": "My Bookings"
+    },
+    "pageTitles": {
+      "favorites": "Your Favorites",
+      "settings": "Settings",
+      "language":"Change language",
+      "cancelAccount": "Cancel Account",
+      "contactUs": "Contact Us"
+    },
+    "createNewGroup": "+ Create New Group",
+    "greeting": "Hello,"
+  },
+  "createNewGroup": {
+    "title": "Create New Group",
+    "label": "Group Name",
+    "placeholder": "Group Name",
+    "validation": {
+      "groupNameRequired": "Group Name is required."
+    },
+    "submit": "Save"
+  }
+}

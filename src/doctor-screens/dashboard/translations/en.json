@@ -1,0 +1,44 @@
+{
+  "dashboard": {
+    "stats": {
+      "waitList": "Wait List Requests",
+      "newAppointments": "New Appointments",
+      "totalAppointments": "Total Appointments"
+    },
+    "bookings": {
+      "title": "Today's Bookings",
+      "viewAll": "VIEW ALL",
+      "status": {
+        "ongoing": "On Going"
+      }
+    },
+    "reviews": {
+      "title": "Recent Reviews",
+      "viewAll": "VIEW ALL"
+    },
+    "appointments": {
+      "title": "New Appointments",
+      "headers": {
+        "name": "Name",
+        "date": "Date",
+        "type": "Consultancy Type",
+        "reason": "Reason",
+        "action": "Action"
+      }
+    }
+  },
+  "drawer": {
+    "items": {
+      "dashboard": "Dashboard",
+      "calendar": "Calendar",
+      "appointments": "Appointments",
+      "messages": "Messages"
+    },
+    "screens": {
+      "calendar": "Calendar",
+      "appointments": "Appointments",
+      "messages": "Messages"
+    },
+    "logout": "Logout"
+  }
+}

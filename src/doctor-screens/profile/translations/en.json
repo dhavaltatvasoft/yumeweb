@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "tabs": {
+      "profileInfo": "Profile Information",
+      "overview": "Overview",
+      "location": "Location",
+      "reviews": "Reviews",
+      "photosVideos": "Photos & Videos",
+      "settings": "Settings",
+      "uploadProof": "Upload Proof Documents",
+      "inviteDoctors": "Invite Doctors"
+    }
+  }
+}
