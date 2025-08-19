@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: process.env.NODE_ENV || 'development',
@@ -8,9 +9,8 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '/',  // important for SPA routing
     clean: true,
-    // ❌ REMOVE: libraryTarget: 'commonjs2' — this breaks browser execution!
   },
   resolve: {
     extensions: [
@@ -34,7 +34,6 @@ module.exports = {
   },
   module: {
     rules: [
-      // ✅ This forces .js files to be treated as CommonJS when needed
       {
         test: /\.m?js$/,
         type: 'javascript/auto',
@@ -45,7 +44,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            sourceType: 'unambiguous', // ✅ Let Babel decide ESM vs CJS
+            sourceType: 'unambiguous',
             presets: [
               'module:metro-react-native-babel-preset',
               '@babel/preset-typescript',
@@ -81,13 +80,17 @@ module.exports = {
     new webpack.DefinePlugin({
       __DEV__: JSON.stringify(true),
     }),
+    // ✅ Copy _redirects into dist/
+    new CopyWebpackPlugin({
+      patterns: [{ from: '_redirects', to: '' }],
+    }),
   ],
   devServer: {
     static: [
       { directory: path.resolve(__dirname, 'dist') },
       { directory: path.resolve(__dirname, 'web') },
     ],
-    historyApiFallback: true,
+    historyApiFallback: true, // refresh works locally too
     port: 3030,
     open: true,
   },
